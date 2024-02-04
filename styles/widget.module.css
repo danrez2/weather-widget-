@@ -1,0 +1,34 @@
+.weatherWidget {
+  border: 2px solid #3498db; /* Blue border */
+  border-radius: 8px;
+  max-width: 300px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  background-color: #ecf0f1; /* Light blue-gray background */
+}
+
+.currentWeather {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Change to column for a cleaner look */
+  justify-content: center;
+  align-items: center;
+}
+
+.currentWeather div {
+  margin-top: 10px; /* Add some spacing between elements */
+  font-size: 2rem; /* Adjust font size */
+  color: #2c3e50; /* Dark blue-gray text color */
+}
+
+.feelsLike {
+  font-size: 1rem; /* Adjust font size */
+  font-style: italic;
+  color: #7f8c8d; /* Light blue-gray text color */
+}
+
+.weather {
+  font-weight: normal; /* Remove bold weight */
+  color: #3498db; /* Blue text color */
+}
